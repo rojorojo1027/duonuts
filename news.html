@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>duonuts 活動消息</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="./favicon.ico" type="img/x-icon">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js.js" type="text/javascript"></script>
+</head>
+<body>
+<!-- nav -->
+<nav>
+    <div class="wrapper navbar">
+        <div class="logo">
+            <a href="./index.html"><img src="./img/logo.png" alt="" onmouseover="this.src='./img/logo2.png';" onmouseout="this.src='./img/logo.png';"></a>
+        </div>
+
+        <div class="nav-list f20">
+            <ul>
+                <li><a href="./about.html" class="nav-text">關於duonuts</a></li>
+                <li><a href="./product.html" class="nav-text">所有商品</a></li>
+                <li><a href="./news.html" class="nav-text here">活動消息</a></li>
+                <li><a href="./store.html" class="nav-text">店舖資訊</a></li>
+                <li><a href="./contact.html" class="nav-text">聯絡我們</a></li>
+                <li><a class="nav-text cart"><img src="./img/cart.png" alt=""></a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="wrapper b4sec">  </div>
+
+<!-- section 優惠活動 -->
+<section class="sale sec-bg wrapper">
+    <img class="title" src="./img/news/sale.png" alt="">
+    
+    <div class="sec-c sale-s1">
+        <div class="text-sl">
+            <h1 class="stitle f24">伯爵茶duonuts 午茶優惠7折！</h1>
+            <p class="f20">duonuts 午茶小確幸！每日下午3點～5點，伯爵茶duonuts優惠7折！</p>
+            <p class="f16">(優惠至4月17日止，僅限來店，全店適用)</p>
+        </div>
+        <img src="./img/news/salebj.png" alt="">
+    </div>
+
+    <div class="sec-c sale-s2">
+        <img src="./img/news/salest.png" alt="">
+        <div class="text-sl">
+            <h1 class="stitle f24">草莓duonuts 早鳥優惠8折！</h1>
+            <p class="f20">早起的鳥兒有優惠啦！每日開店～中午12點30分前，來店享草莓duonuts優惠8折！</p>
+            <p class="f16">(優惠至5月20日止，僅限來店，全店適用)</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- section 最新消息 -->
+<section class="news sec-bg wrapper">
+                                <div id="news1"><!--index連結news1頂部位置--></div>
+    
+    <img class="title" src="./img/news/news.png" alt="">
+    
+    <div class="sec-c">
+                                <div id="news2"><!--index連結news2頂部位置--></div>
+        <div class="text-nw">
+            <h1 class="stitle f24">新品項 ball duonuts 熱烈試賣中！</h1>
+            <p class="f20">最特別的球型甜甜圈ball duonuts新亮相，可愛的外型，飽滿的內餡！先發選手紫地瓜、紅豆口味即日起實體、線上通路全面試賣中！</p>
+        </div>
+        <img src="./img/news/news11.png" alt="">
+    </div>
+                                
+    <div class="sec-c">
+        <div class="text-nw">
+            <h1 class="stitle f24">即日起來店消費可以客製化外層裹糖量囉！</h1>
+            <p class="f20">duonuts貼心減糖新政策，讓你吃得健康負擔少！來店消費甜甜圈可選擇正常or減糖， 就讓duonuts成為你最貼心的甜點夥伴！</p>
+        </div>
+        <img src="./img/news/news22.png" alt="">
+    </div>
+                                <div id="news3"><!--index連結news3頂部位置--></div>
+    
+    <div class="sec-c news3">
+        <div class="text-nw">
+            <h1 class="stitle f24">2/6~23原味duonuts買五送一！</h1>
+            <p class="f20">2月6日～2月23日duonuts好友聚活動開跑啦！派對分享、野餐首選，原味duonuts買五送一！</p>
+            <p class="f16">(僅限來店，全店適用)</p>
+        </div>
+        <img src="./img/news/news33.png" alt="">
+    </div>
+
+</section>
+
+<!-- footer -->
+<footer>
+    <div class="wrapper">
+        <p>duonuts © 2021<br>rojorojo1027@gmail.com</p>
+    </div>
+</footer>
+
+<!-- shoppingcart-popup -->
+<div class="overlay shct">
+	<div class="popup">
+		<a class="closebtn" href="#">&times;</a>
+
+		<div class="sec-c">
+			<img src="./img/cart/cartcontent.png" alt="">
+		</div>
+	</div>
+</div>
+
+
+<script>
+/*shoppingcart-popup 觸發 jquery*/
+$("a.cart").on("click", function(e){
+        e.preventDefault();
+        $("div.shct").fadeIn();
+});
+/*關閉popup*/
+$("a.closebtn").on("click", function(e){
+        e.preventDefault();
+        $("div.overlay").fadeOut();
+});
+</script>
+
+</body>
+</html>

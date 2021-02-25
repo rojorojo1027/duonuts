@@ -1,0 +1,530 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+body{
+    background-color: #F8F8F5;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+/*共用class*/
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.f24{
+    font-size: 24px;
+    color: #208B75;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.f22{
+    font-size: 20px;
+    color: #777;
+    letter-spacing: 0.18em;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.f20{
+    font-size: 20px;
+    color: #777;
+    letter-spacing: 0.25em;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.f16{
+    font-size: 16px;
+    color: #777;
+    letter-spacing: 0.25em;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.sec-bg{
+    background-color: #F4F4F0;
+    border-radius: 300px 300px 275px 275px;
+}
+.title{
+    display: block;
+    margin: 0 auto;
+    padding: 45px 0 40px;
+}
+.stitle{
+    padding-bottom: 20px;
+}
+
+/*nav*/
+nav{
+    background-image: url(./img/nav.png);
+    background-position: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 226px;
+    min-width: 1200px;
+}
+.navbar{
+    display: flex;
+    justify-content:flex-end;
+}
+.logo img{
+    padding: 52px 114px 0 0;
+}
+.nav-list ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 33px;
+}
+.nav-text{
+    color:#999;
+    padding-right: 37px;
+    letter-spacing: 0.15em;
+}
+.nav-list ul li a:hover{
+    color:#208B75;
+}
+.here{
+    color:#208B75;
+}
+.cart:hover{
+    opacity: .7;
+}
+
+/*footer*/
+footer{
+    background-color: #fff;
+}
+footer p{
+    font-size: 12px;
+    color: #999;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+    line-height: 1.8;
+    text-align: right;
+    padding: 20px 40px;
+}
+
+/*index-header*/
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 132px 100px 20px 0;
+}
+header .hd-index{
+    width: 720px;
+    height: 230px;
+    background-image: url(./img/index/header-g.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}/*img*/
+
+header .hd-index h5{
+    position: absolute;
+    top: 155px;
+    left: 88px;
+    transform: translate(-50px, -50px); 
+    z-index: 1;
+}/*text on img*/
+
+
+/*section 共用*/
+.sec-r{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sec-l{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 120px;
+}
+.sec-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+.b4sec{
+    padding-top: 270px;
+}
+
+/*index-sec 本月主打星*/
+.star .sec-r .text-st{
+    padding: 90px 50px 0 0;
+    width: 365px;
+}
+.star .sec-l .text-st2{
+    padding: 60px 0 0 60px;
+    width: 365px;
+}
+.star h1:hover{
+    opacity: .7;
+}
+
+/*index-sec 關於duonuts*/
+.abo .sec-c{
+    padding-left: 20px;
+}
+.abo .sec-c .text-ab{
+    padding: 0 50px 0 0;
+    width: 365px;
+}
+.abo .sec-c .text-ab img{
+    margin: 35px 0 0 170px;
+}/*morebtn*/
+.abo .sec-c .text-ab img:hover{
+    opacity: .7;
+}
+
+/*index-sec 熱門商品*/
+.dspnone{
+    display: none;
+}
+.hot .sec-c{
+    padding-bottom: 0px;
+}
+.hot-crs{
+    display: flex;
+}
+.hot .hot-crs .item{
+    padding: 0 10px;
+}
+.hot .hot-crs .item h3{
+    padding: 20px 0;
+    text-align: center;
+}
+.hot .hot-crs .item h3:hover{
+    opacity: .7;
+}
+.hot .lbtn{
+    padding-right: 10px;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+.hot .rbtn{
+    padding-left: 10px;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+.hot .mr{
+    padding-bottom: 100px;
+}
+.hot .lbtn:hover,.hot .rbtn:hover,.hot .mr:hover{
+    opacity: .7;
+}
+
+/*index-sec 最新消息*/
+.neww .sec-c{
+    padding-bottom: 10px;
+}
+
+.neww .item2{
+    padding: 0 15px;
+    width: 320px;
+}
+.neww .item2 h3{
+    padding: 20px 15px 10px;
+    text-align: center;
+}
+.neww .item2 h3:hover{
+    opacity: .7;
+}
+.neww .mr{
+    padding-bottom: 100px;
+}
+.neww .mr:hover{
+    opacity: .7;
+}
+
+
+/*about-sec 品牌故事*/
+.story .text-sto{
+    width: 420px;
+    padding-bottom: 40px;
+
+}
+.story .text-sto p{
+    padding-bottom: 12px;
+}
+.story .sec-c{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.story .sec-c img{
+    padding-left: 60px;
+}
+
+/*about-sec 嚴選食材*/
+.mat .sec-c{
+    padding-bottom: 120px;
+    padding-left: 40px;
+}
+
+.mat .item3{
+    padding: 0 15px;
+    width: 300px;
+}
+.mat .item3 h1{
+    padding: 30px 0 10px 15px;
+}
+
+/*about-sec 團隊介紹*/
+.team .sec-c{
+    padding-bottom: 120px;
+}
+
+.team .item4{
+    padding: 0 40px;
+    width: 290px;
+}
+.team .item4 h1{
+    padding: 30px 0 10px;
+    text-align: center;
+}
+.team .item4 p{
+    text-align: center;
+}
+
+
+/*news-sec 優惠活動*/
+.sale .text-sl{
+    width: 435px;
+}
+.sale .text-sl p{
+    padding-bottom: 10px;
+}
+.sale .sale-s1{
+    padding-top: 0px;
+}
+.sale .sale-s1 img{
+    padding-left: 20px;
+}
+.sale .sec-c{
+    padding-bottom: 0;
+}
+.sale .sale-s2{
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.sale .sale-s2 img{
+    padding-right: 50px;
+}
+
+/*news-sec 最新消息*/
+.news .text-nw{
+    width: 500px;
+}
+.news .text-nw p{
+    padding-bottom: 10px;
+}
+.news img{
+    padding-left: 30px;
+}
+.news .sec-c{
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.news .news3{
+    padding-bottom: 100px;
+}
+
+
+/*store-sec 共用*/
+.store .sec-c img{
+    padding-left: 20px;
+}
+.store .text-store{
+    width: 350px;
+    padding-left: 30px;
+}
+.store .text-store .adr{
+    padding-bottom: 40px;
+}
+.store .text-store .info{
+    display: flex;
+    padding-bottom: 5px;
+}
+.store .text-store .info p{
+    color: #208B75;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.store .text-store .info img{
+    padding-left: 0;
+}
+
+
+/*product-sec 共用*/
+.itemp{
+    padding: 0 20px;
+    width: 290px;
+}
+.itemp h3{
+    padding: 15px 0;
+    text-align: center;
+}
+.itemp h3:hover{
+    opacity: .7;
+}
+
+/*product-sec 限定款duonuts*/
+.fla .sec-c{
+    padding-bottom: 0px;
+}
+.fla .flas2{
+    padding-bottom: 100px;
+}
+
+/*product-popup 商品頁*/
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(7, 7, 7, 0.3);
+    display: none;
+    z-index: 1000;
+  }
+.popup{
+    margin: 145px auto;
+    background-color: #fff;
+    border-radius: 180px;
+    width: 900px;
+    position: relative;
+    z-index: 1000;
+  }
+.popup .closebtn{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #fff;
+    font-size: 30px;
+  }
+.popup .closebtn:hover{
+    color: #208B75;
+}
+.popup .prbtn{
+    position: absolute;
+    top: 45%;
+    left: -60px;
+  }
+.popup .nxbtn{
+    position: absolute;
+    top: 45%;
+    right: -60px;
+  }
+.popup .prbtn:hover,.popup .nxbtn:hover{
+    opacity: .7;
+}
+.popup .sec-r{
+    padding: 80px 0 100px;
+  }
+.popup .text-pop{
+    padding-right: 35px;
+    padding-top: 35px;
+    width: 265px;
+}
+.popup .swt{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.popup .swt p{
+    padding-right: 3px;
+}
+.popup .text-pop .price{
+    text-align: right;
+    font-weight: 300;
+    padding-right: 38px;
+    padding-bottom: 3px;
+}
+.popup .text-pop .buybtn{
+    padding-left: 93px;
+}
+.popup .text-pop .buybtn:hover{
+    opacity: .7;
+}
+
+/*shoppingcart-popup 購物車 內容暫圖未切*/
+.shct{
+    overflow-y: scroll;
+}
+.shct .sec-c{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/*contact-sec 聯絡我們*/
+.contact .inputbg{
+    background-color: #fff;
+    width: 580px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 1px rgba(7, 7, 7, .1);
+}
+.contact ul{
+    padding: 45px 0;
+}
+.contact li{
+    padding: 12px 0;
+}
+.contact li h3{
+    padding-bottom: 10px;
+    color: #208B75;
+}
+.contact .wh{
+	width: 320px;
+	height: 40px;
+	background-color: #F8F8F5;
+	border:0;
+	padding-left: 5px;
+}
+.contact .wh:hover{
+    background-color:#F4F4F0;
+}
+.contact input:focus{
+    outline: 2px dotted #208B75;
+}
+.contact textarea{
+	width: 320px;
+	height: 200px;
+	background-color: #F8F8F5;
+	border: 0;
+	padding-left: 5px; 
+}
+.contact textarea:hover{
+    background-color: #F4F4F0;
+}
+.contact textarea:focus{
+    outline: 2px dotted #208B75;
+}
+.contact button{
+    background: none;
+    border:0;
+    outline: 0;
+}
+.contact .sendbtn{
+    margin-left: 94px;
+    cursor: pointer;
+}
+.contact .sendbtn:hover{
+    opacity: .7;
+}

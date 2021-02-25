@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於 duonuts</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="./favicon.ico" type="img/x-icon">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js.js" type="text/javascript"></script>
+</head>
+<body>
+<!-- nav -->
+<nav>
+    <div class="wrapper navbar">
+        <div class="logo">
+            <a href="./index.html"><img src="./img/logo.png" alt="" onmouseover="this.src='./img/logo2.png';" onmouseout="this.src='./img/logo.png';"></a>
+        </div>
+
+        <div class="nav-list f20">
+            <ul>
+                <li><a href="./about.html" class="nav-text here">關於duonuts</a></li>
+                <li><a href="./product.html" class="nav-text">所有商品</a></li>
+                <li><a href="./news.html" class="nav-text">活動消息</a></li>
+                <li><a href="./store.html" class="nav-text">店舖資訊</a></li>
+                <li><a href="./contact.html" class="nav-text">聯絡我們</a></li>
+                <li><a class="nav-text cart"><img src="./img/cart.png" alt=""></a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="wrapper b4sec">  </div>
+
+<!-- section 品牌故事 -->
+<section class="story sec-bg wrapper">
+    <img class="title" src="./img/about/sto.png" alt="">
+    
+    <div class="sec-c">
+        <div class="text-sto">
+            <h1 class="stitle f24">實在，用心，揪甘心！</h1>
+            <p class="f20">duonuts 甜甜圈堅持每天用心備料、手工現作、新鮮出爐。食材天然、實在，吃得到飽滿紮實的口感！</p>
+            <p class="f20">工作好累...人生好難...沒有什麼是一顆duonuts不能解決的！如果不能，那就兩顆！既來之，duonuts！一口咬下，快樂就是這麼簡單！</p>
+        </div>
+        <img src="./img/about/storyimg.png" alt="">
+    </div>
+
+</section>
+
+<!-- section 嚴選食材 -->
+<section class="mat sec-bg wrapper">
+    <img class="title" src="./img/about/mat.png" alt="">
+    
+    <div class="sec-c">
+        <div class="item3">
+            <img src="./img/about/flour.png" alt="">
+            <h1 class="f24">無添加純麥麵粉</h1>
+        </div>
+        <div class="item3">
+            <img src="./img/about/yeast.png" alt="">
+            <h1 class="f24">國產純天然酵母</h1>
+        </div>
+        <div class="item3">
+            <img src="./img/about/sugar.png" alt="">
+            <h1 class="f24">特選日本白砂糖</h1>
+        </div>
+    </div>
+
+</section>
+
+<!-- section 團隊介紹 -->
+<section class="team sec-bg wrapper">
+    <img class="title" src="./img/about/team.png" alt="">
+    
+    <div class="sec-c">
+        <div class="item4">
+            <img src="./img/about/chef.png" alt="">
+            <h1 class="f24">技術指導</h1>
+            <p class="f22">Mark Bai</p>
+        </div>
+        <div class="item4">
+            <img src="./img/about/boss.png" alt="">
+            <h1 class="f24">創辦人</h1>
+            <p class="f22">Rojo Lin</p>
+        </div>
+        <div class="item4">
+            <img src="./img/about/manager.png" alt="">
+            <h1 class="f24">總經理</h1>
+            <p class="f22">Apple Pie</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer -->
+<footer>
+    <div class="wrapper">
+        <p>duonuts © 2021<br>rojorojo1027@gmail.com</p>
+    </div>
+</footer>
+
+<!-- shoppingcart-popup -->
+<div class="overlay shct">
+	<div class="popup">
+		<a class="closebtn" href="#">&times;</a>
+
+		<div class="sec-c">
+			<img src="./img/cart/cartcontent.png" alt="">
+		</div>
+	</div>
+</div>
+
+
+<script>
+/*shoppingcart-popup 觸發 jquery*/
+$("a.cart").on("click", function(e){
+        e.preventDefault();
+        $("div.shct").fadeIn();
+});
+/*關閉popup*/
+$("a.closebtn").on("click", function(e){
+        e.preventDefault();
+        $("div.overlay").fadeOut();
+});
+</script>
+
+</body>
+</html>
