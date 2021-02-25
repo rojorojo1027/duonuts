@@ -105,6 +105,7 @@ nav{
 footer{
     background-color: #fff;
     width: 100%;
+    min-width: 1200px;
 }
 footer p{
     font-size: 12px;
