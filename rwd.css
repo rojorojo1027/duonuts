@@ -1,0 +1,530 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap');
+
+/* RWD 1199 to 992 */
+@media screen and (min-width:992px) and (max-width:1199px){
+
+    .wrapper{
+        width: 992px;
+    }
+    footer .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav{
+        background-image: url(./img/rwd/nav1199.png);
+        position: fixed;
+        width: 100%;
+        height: 183px;
+    }
+    .logo img{
+        width: 155px;
+        padding: 43px 0 0 0;
+        margin-right: 49px;
+    }
+    .nav-text{
+        padding-right: 22px;
+    }
+
+    .sec-bg{
+        background-color: #F4F4F0;
+        border-radius: 275px 275px 255px 255px;
+    }
+    
+    /*index-slogan*/
+    .slogan .slo-index{
+        width: 620px;
+        height: 198px;
+        background-image: url(./img/rwd/header-g1199.png);
+        position: relative;
+    }/*img*/
+    
+    .slogan .slo-index h5{
+        position: absolute;
+        top: 145px;
+        left: 32px;
+    }/*text on img*/
+    
+    /*index-sec 本月主打星*/
+    .star .sec-r img{
+        width: 520px;
+    }
+    .star .sec-l img{
+        width: 520px;
+    }
+
+    /*index-sec 關於duonuts*/
+    .abo .sec-c .img{
+        width: 330px;
+    }
+
+    /*index-sec 熱門商品*/
+    .hot .hot-crs .item img{
+        height: 230px;
+    }
+
+    /*index-sec 最新消息*/
+    .neww .item2 img{
+        width: 270px;
+    }
+    .neww .item2{
+        padding: 0 10px;
+        width: 295px;
+    }
+
+
+}
+
+
+/* RWD 991 to 768 */
+@media screen and (min-width:768px) and (max-width:991px){
+
+    .wrapper{
+         width: 768px;
+    }
+    footer .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav{
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        height: 100px;
+    }
+    .navbar{
+        display: flex;
+        justify-content:space-between;
+    }
+    .nav-list ul li:nth-child(1),.nav-list ul li:nth-child(2),.nav-list ul li:nth-child(3),.nav-list ul li:nth-child(4),.nav-list ul li:nth-child(5){
+        display: none;
+    }
+    .logo img{
+        width: 90px;
+        padding: 25px 0 0 0;
+        margin-left: 30px;
+    }
+    .nav-list .cart{
+        padding-right: 25px;
+    }
+    .nav-list .rwdbtn{
+        display: flex;
+    }
+    /* .nav-list a.rwdbtn{
+        float: right;
+        display: block;
+    }
+    .nav-list .responsive{
+        position: relative;
+    }
+    .nav-list .responsive a.rwdbtn{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav-list .responsive li a{
+        display: block;
+        float: none;
+        display: block;s
+        text-align: left;
+    } */
+    
+
+    .sec-bg{
+        background-color: #F4F4F0;
+        border-radius: 235px 235px 235px 235px;
+    }
+    .title{
+        padding: 65px 0 40px;
+    }
+
+    /*index-slogan*/
+    .slogan{
+        display: flex;
+        justify-content: center;
+        padding: 132px 0px 30px 10px;
+    }
+    .slogan .slo-index{
+        width: 620px;
+        height: 198px;
+        background-image: url(./img/rwd/header-g1199.png);
+        position: relative;
+    }/*img*/
+    
+    .slogan .slo-index h5{
+        position: absolute;
+        top: 145px;
+        left: 54px;
+        letter-spacing: 0.2em;
+    }/*text on img*/
+    
+    /*index-sec 本月主打星*/
+    .star .sec-r{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .star .sec-r .text-st{
+        order: 2;
+        padding: 30px 0 55px 90px;
+        width: 405px;
+    }
+    .star .sec-r img{
+        margin-left: 147px;
+        padding: 0;
+        order: 1;
+    }
+    .star .sec-l{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .star .sec-l .text-st2{
+        padding: 35px 30px 0 0;
+        width: 345px;
+    }
+    .star .sec-l img{
+        margin-right: 147px;
+        padding: 0;
+    }
+
+    /*index-sec 關於duonuts*/
+    .abo .sec-c{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .abo .sec-c .img{
+        order: 1;
+    }
+    .abo .sec-c .text-ab{
+        order: 2;
+        padding: 50px 0 0 0;
+        width: 300px;
+    }
+
+    /*index-sec 熱門商品*/
+    .hot .hot-crs .item:nth-child(3),.hot .hot-crs .item:nth-child(4){
+        display: none;
+    }
+    .hot .lbtn{
+        padding-right: 30px;
+    }
+    .hot .rbtn{
+        padding-left: 30px;
+    }
+
+    /*index-sec 最新消息*/
+    .neww .sec-c{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .neww .item2{
+        padding: 0 0 40px;
+        width: 305px;
+    }
+    .neww .item2:nth-child(3){
+        padding: 0 0 0px;
+    }
+    .neww .item2 h3{
+        padding: 20px 0px 10px;
+    }
+
+
+}
+     
+    
+/* RWD 767 to 576 */
+@media screen and (min-width:576px) and (max-width:767px){
+    
+   .wrapper{
+        width: 100%;
+   }
+   footer .wrapper{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   nav{
+       background-color: #fff;
+       position: fixed;
+       width: 100%;
+       height: 100px;
+   }
+   .navbar{
+       display: flex;
+       justify-content:space-between;
+   }
+   .nav-list ul li:nth-child(1),.nav-list ul li:nth-child(2),.nav-list ul li:nth-child(3),.nav-list ul li:nth-child(4),.nav-list ul li:nth-child(5){
+       display: none;
+   }
+   .logo img{
+       width: 90px;
+       padding: 25px 0 0 0;
+       margin-left: 30px;
+   }
+
+   .nav-list .cart{
+    padding-right: 25px;
+    }
+    .nav-list .rwdbtn{
+    display: flex;
+    }
+
+   .sec-bg{
+       background-color: #F4F4F0;
+       border-radius: 205px 205px 185px 185px;
+   }
+   .title{
+       padding: 65px 80px 40px;
+   }
+
+   /*index-slogan*/
+   .slogan{
+       display: flex;
+       justify-content: center;
+       padding: 132px 0px 30px 10px;
+   }
+   .slogan .slo-index{
+       width: 520px;
+       height: 167px;
+       background-image: url(./img/rwd/header-g767.png);
+       position: relative;
+   }/*img*/
+   
+   .slogan .slo-index h5{
+       position: absolute;
+       top: 135px;
+       left: 80px;
+       letter-spacing: 0.2em;
+       width: 280px;
+       text-align: center;
+   }/*text on img*/
+   
+   /*index-sec 本月主打星*/
+   .star .sec-r{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .star .sec-r .text-st{
+       order: 2;
+       padding: 30px 0 55px;
+       width: 405px;
+   }
+   .star .sec-r img{
+       width: 470px;
+       padding: 0;
+       order: 1;
+   }
+   .star .sec-l{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .star .sec-l .text-st2{
+       padding: 35px 0 0;
+       width: 405px;
+   }
+   .star .sec-l img{
+       width: 470px;
+       padding: 0;
+   }
+
+   /*index-sec 關於duonuts*/
+   .abo .sec-c{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .abo .sec-c .img{
+       order: 1;
+       width: 380px;
+   }
+   .abo .sec-c .text-ab{
+       order: 2;
+       padding: 50px 0 0 0;
+       width: 300px;
+   }
+
+   /*index-sec 熱門商品*/
+   .hot .hot-crs .item:nth-child(3),.hot .hot-crs .item:nth-child(4){
+       display: none;
+   }
+   .hot .lbtn{
+       padding-right: 30px;
+   }
+   .hot .rbtn{
+       padding-left: 30px;
+   }
+
+   /*index-sec 最新消息*/
+   .neww .sec-c{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .neww .item2{
+       padding: 0 0 40px;
+       width: 305px;
+   }
+   .neww .item2:nth-child(3){
+       padding: 0 0 0px;
+   }
+   .neww .item2 h3{
+       padding: 20px 0px 10px;
+   }
+
+}
+    
+
+/* RWD under 575 */
+@media screen and (max-width: 575px){
+    
+    .wrapper{
+        width: 100%;
+   }
+   footer .wrapper{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   nav{
+       background-color: #fff;
+       position: fixed;
+       width: 100%;
+       height: 100px;
+   }
+   .navbar{
+       display: flex;
+       justify-content:space-between;
+   }
+   .nav-list ul li:nth-child(1),.nav-list ul li:nth-child(2),.nav-list ul li:nth-child(3),.nav-list ul li:nth-child(4),.nav-list ul li:nth-child(5){
+       display: none;
+   }
+   .logo img{
+       width: 90px;
+       padding: 25px 0 0 0;
+       margin-left: 30px;
+   }
+
+   .nav-list .cart{
+    padding-right: 25px;
+    }
+    .nav-list .rwdbtn{
+    display: flex;
+    }
+
+   .sec-bg{
+       background-color: #F4F4F0;
+       border-radius: 155px 155px 135px 135px;
+   }
+   .title{
+       padding: 65px 80px 40px;
+   }
+
+   /*index-slogan*/
+   .slogan{
+       display: flex;
+       justify-content: center;
+       padding: 132px 0px 30px 10px;
+   }
+   .slogan .slo-index{
+       width: 470px;
+       height: 152px;
+       background-image: url(./img/rwd/header-g575.png);
+       position: relative;
+   }/*img*/
+   
+   .slogan .slo-index h5{
+       position: absolute;
+       top: 135px;
+       left: 55px;
+       letter-spacing: 0.2em;
+       width: 280px;
+       text-align: center;
+   }/*text on img*/
+   
+   /*index-sec 本月主打星*/
+   .star .sec-r{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .star .sec-r .text-st{
+       order: 2;
+       padding: 30px 0 55px;
+       width: 405px;
+   }
+   .star .sec-r img{
+       width: 430px;
+       padding: 0;
+       order: 1;
+   }
+   .star .sec-l{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .star .sec-l .text-st2{
+       padding: 35px 0 0;
+       width: 405px;
+   }
+   .star .sec-l img{
+       width: 430px;
+       padding: 0;
+   }
+
+   /*index-sec 關於duonuts*/
+   .abo .sec-c{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .abo .sec-c .img{
+       order: 1;
+       width: 350px;
+   }
+   .abo .sec-c .text-ab{
+       order: 2;
+       padding: 50px 0 0 0;
+       width: 300px;
+   }
+
+   /*index-sec 熱門商品*/
+   .hot .hot-crs .item:nth-child(3),.hot .hot-crs .item:nth-child(4){
+       display: none;
+   }
+   .hot .lbtn{
+       padding-right: 20px;
+   }
+   .hot .rbtn{
+       padding-left: 20px;
+   }
+
+   /*index-sec 最新消息*/
+   .neww .sec-c{
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .neww .item2{
+       padding: 0 0 40px;
+       width: 305px;
+   }
+   .neww .item2:nth-child(3){
+       padding: 0 0 0px;
+   }
+   .neww .item2 h3{
+       padding: 20px 0px 10px;
+   }    
+
+
+}
+    
+      

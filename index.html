@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>duonuts 首頁</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="rwd.css" type="text/css">
     <link rel="icon" href="img/favicon.png" type="image/png">
     <link rel="shortcut icon" href="./favicon.ico" type="img/x-icon">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="js.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/bf3ce65286.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!-- nav -->
@@ -19,7 +19,7 @@
             <a href="./index.html"><img src="./img/logo.png" alt="" onmouseover="this.src='./img/logo2.png';" onmouseout="this.src='./img/logo.png';"></a>
         </div>
 
-        <div class="nav-list f20">
+        <div class="nav-list f20" id="nav">
             <ul>
                 <li><a href="./about.html" class="nav-text">關於duonuts</a></li>
                 <li><a href="./product.html" class="nav-text">所有商品</a></li>
@@ -27,18 +27,20 @@
                 <li><a href="./store.html" class="nav-text">店舖資訊</a></li>
                 <li><a href="./contact.html" class="nav-text">聯絡我們</a></li>
                 <li><a class="nav-text cart"><img src="./img/cart.png" alt=""></a></li>
+                <li><a href="" class="nav-text rwdbtn" onclick=""><i class="fas fa-bars"></i></a></li>
+                <!-- <li><a href="javascript:void(0);" class="nav-text rwdbtn" onclick="myFunctionRWD()"><i class="fas fa-bars"></i></a></li> -->
             </ul>
         </div>
 
     </div>
 </nav>
 
-<!-- header slogan -->
-<header class="wrapper">
-    <div class="hd-index">
+<!-- slogan -->
+<section class="slogan wrapper">
+    <div class="slo-index">
         <h5 class="f20">凡戴眼鏡來店消費，即享九折優惠！</h5>
     </div>
-</header>
+</section>
 
 <!-- section 本月主打星 -->
 <section class="star sec-bg wrapper">
@@ -56,7 +58,7 @@
         <a class="the_btn2"><img src="./img/index/mcha-c.png" alt=""></a>
         <div class="text-st2">
             <a class="the_btn2"><h1 class="stitle f24">抹茶 duonuts</h1></a>
-            <p class="f20">使用日本小山園抹茶粉，<br>苦苦甜甜就是大人的滋味！</p>
+            <p class="f20">使用日本小山園抹茶粉，苦苦甜甜就是大人的滋味！</p>
         </div>
     </div>
 
@@ -72,7 +74,7 @@
             <p class="f20">實在看得到，用心吃得到，最簡單的美味最動人！</p>
             <a href="./about.html"><img src="./img/index/morebtn.png" alt=""></a>
         </div>
-        <img src="./img/index/abo-img.png" alt="">
+        <img class="img" src="./img/index/abo-img.png" alt="">
     </div>
 
 </section>
@@ -350,6 +352,8 @@
 <!-- index-popup end -->
 
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js.js" type="text/javascript"></script>
 <script>
 /*product-popup 觸發 jquery*/
         $("a.the_btn1").on("click", function(e){
