@@ -414,19 +414,8 @@
         display: inline-block;
     }
     .nav-list .rwdbtn{
-         display: flex;
+         display: inline-block;
     }
-   /* .nav-list .nav-text{
-        padding-right: 25px;
-        letter-spacing: 0em;
-        display: inline-block;
-    }
-    .nav-list .cart{
-        display: inline-block;
-    }
-    .nav-list .rwdbtn{
-        display: inline-block;
-    } */
 
    .sec-bg{
        background-color: #F4F4F0;
