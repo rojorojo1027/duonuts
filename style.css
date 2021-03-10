@@ -105,6 +105,8 @@ nav{
     font-size: 27px;
     padding-right: 25px;
     padding-bottom: 5px;
+    background: transparent;
+    border: transparent;
 }
 .rwdbtn:hover{
     opacity: .7;

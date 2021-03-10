@@ -112,26 +112,8 @@
         padding-right: 25px;
     }
     .nav-list .rwdbtn{
-        display: flex;
+        display: inline-block;
     }
-    /* .nav-list a.rwdbtn{
-        float: right;
-        display: block;
-    }
-    .nav-list .responsive{
-        position: relative;
-    }
-    .nav-list .responsive a.rwdbtn{
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .nav-list .responsive li a{
-        display: block;
-        float: none;
-        display: block;s
-        text-align: left;
-    } */
     
 
     .sec-bg{
@@ -273,10 +255,10 @@
    }
 
    .nav-list .cart{
-    padding-right: 25px;
+        padding-right: 25px;
     }
     .nav-list .rwdbtn{
-    display: flex;
+        display: inline-block;
     }
 
    .sec-bg{
@@ -429,10 +411,10 @@
    }
 
    .nav-list .cart{
-    padding-right: 25px;
+        padding-right: 25px;
     }
     .nav-list .rwdbtn{
-    display: flex;
+        display: inline-block;
     }
 
    .sec-bg{

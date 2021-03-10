@@ -27,8 +27,7 @@
                 <li><a href="./store.html" class="nav-text">店舖資訊</a></li>
                 <li><a href="./contact.html" class="nav-text">聯絡我們</a></li>
                 <li><a class="nav-text cart"><img src="./img/cart.png" alt="" width="37px"></a></li>
-                <li><a href="" class="nav-text rwdbtn" onclick=""><i class="fas fa-bars"></i></a></li>
-                <!-- <li><a href="javascript:void(0);" class="nav-text rwdbtn" onclick="myFunctionRWD()"><i class="fas fa-bars"></i></a></li> -->
+                <li><button type="button" class="nav-text rwdbtn"><i class="fas fa-bars"></i></button></li>
             </ul>
         </div>
 
@@ -355,53 +354,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="js.js" type="text/javascript"></script>
 <script>
-/*product-popup 觸發 jquery*/
-        $("a.the_btn1").on("click", function(e){
-            e.preventDefault();
-            $("div.star1").fadeIn();
-        });
-        $("a.the_btn2").on("click", function(e){
-            e.preventDefault();
-            $("div.star2").fadeIn();
-        });
-        $("a.the_btnh1").on("click", function(e){
-            e.preventDefault();
-            $("div.hot1").fadeIn();
-        });
-        $("a.the_btnh2").on("click", function(e){
-            e.preventDefault();
-            $("div.hot2").fadeIn();
-        });
-        $("a.the_btnh3").on("click", function(e){
-            e.preventDefault();
-            $("div.hot3").fadeIn();
-        });
-        $("a.the_btnh4").on("click", function(e){
-            e.preventDefault();
-            $("div.hot4").fadeIn();
-        });
-        $("a.the_btnh5").on("click", function(e){
-            e.preventDefault();
-            $("div.hot5").fadeIn();
-        });
-/*shoppingcart-popup 觸發 jquery*/
-        $("a.cart").on("click", function(e){
-            e.preventDefault();
-            $("div.shct").fadeIn();
-        });
 
-/*buybtn觸發shoppingcart-popup*/
-        $("a.buybtn").on("click", function(e){
-            e.preventDefault();
-            $("div.overlay").fadeOut();
-            $("div.shct").fadeIn();
-        });
-
-        /*關閉popup*/
-        $("a.closebtn").on("click", function(e){
-            e.preventDefault();
-            $("div.overlay").fadeOut();
-        });
 </script>
 
 </body>
