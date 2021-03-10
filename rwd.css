@@ -412,7 +412,12 @@
        margin-left: 30px;
    }
    .nav-list .nav-text{
+       padding-right: 0;
+       margin-right: 0;
+   }
+   .nav-list .cart{
        padding-right: 10px;
+       margin-right: 0;
    }
     .nav-list .rwdbtn{
         display: inline-block;
