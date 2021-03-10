@@ -1,10 +1,10 @@
 /* RWD nav漢堡按鈕 jquery*/
-$(function(){
-    // 點擊按鈕rwdbtn，選單nav-list縮放
-    $("button.rwdbtn").on("click", function(){
-      $("nav.nav-list").slideToggle();
-    });
-});
+// $(function(){
+//     // 點擊按鈕rwdbtn，選單nav-list縮放
+//     $("button.rwdbtn").on("click", function(){
+//       $("nav.nav-list").slideToggle();
+//     });
+// });
 
 /* index product-popup 觸發 jquery*/
 $("a.the_btn1").on("click", function(e){
