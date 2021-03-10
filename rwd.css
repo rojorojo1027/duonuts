@@ -211,11 +211,14 @@
     .hot .hot-crs .item:nth-child(3),.hot .hot-crs .item:nth-child(4){
         display: none;
     }
+    .hot .hot-crs .item img{
+        height: 255px;
+    }
     .hot .lbtn{
-        padding-right: 30px;
+        margin-right: 30px;
     }
     .hot .rbtn{
-        padding-left: 30px;
+        margin-left: 30px;
     }
 
     /*index-sec 最新消息*/
@@ -358,10 +361,10 @@
        display: none;
    }
    .hot .lbtn{
-       padding-right: 30px;
+       margin-right: 30px;
    }
    .hot .rbtn{
-       padding-left: 30px;
+       margin-left: 30px;
    }
 
    /*index-sec 最新消息*/

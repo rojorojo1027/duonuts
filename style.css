@@ -213,6 +213,9 @@ footer p{
 .hot .hot-crs .item{
     padding: 0 10px;
 }
+.hot .hot-crs .item img{
+    height: 255px;
+}
 .hot .hot-crs .item h3{
     padding: 20px 0;
     text-align: center;
