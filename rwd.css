@@ -413,14 +413,12 @@
         padding-right: 0px;
         letter-spacing: 0em;
     }
-    .nav-list li{
-        width: 55px;
-    }
-    .nav-list .cart{
+    .nav-list li .cart{
         margin-right: 15px;
+        display: inline-block;
     }
-    .nav-list .rwdbtn{
-        display: flex;
+    .nav-list li .rwdbtn{
+        display: inline-block;
         margin-right: 25px;
     }
 
