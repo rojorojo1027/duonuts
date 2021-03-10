@@ -294,6 +294,7 @@
        width: 520px;
        height: 167px;
        background-image: url(./img/rwd/header-g767.png);
+       background-size: 520px 167px;
        position: relative;
    }/*img*/
    
@@ -446,19 +447,19 @@
        padding: 132px 20px 30px;
    }
    .slogan .slo-index{
-       width: 350px;
-       height: 113px;
+       width: 335px;
+       height: 108px;
        background-image: url(./img/rwd/header-g575.png);
-       background-size: 350px 113px;
+       background-size: 335px 108px;
        position: relative;
    }/*img*/
    
    .slogan .slo-index h5{
        position: absolute;
        top: 105px;
-       left: 46px;
+       left: 60px;
        letter-spacing: 0.2em;
-       width: 220px;
+       width: 185px;
        text-align: center;
        font-size: 17px;
    }/*text on img*/
@@ -475,7 +476,7 @@
        width: 280px;
    }
    .star .sec-r img{
-       width: 340px;
+       width: 320px;
        padding: 0;
        order: 1;
    }
@@ -489,7 +490,7 @@
        width: 280px;
    }
    .star .sec-l img{
-       width: 340px;
+       width: 320px;
        padding: 0;
    }
 
@@ -501,7 +502,7 @@
    }
    .abo .sec-c .img{
        order: 1;
-       width: 280px;
+       width: 260px;
    }
    .abo .sec-c .text-ab{
        order: 2;
@@ -534,7 +535,7 @@
    }
    .neww .item2{
        padding: 0 0 40px;
-       width: 250px;
+       width: 230px;
    }
    .neww .item2:nth-child(3){
        padding: 0 0 0px;
@@ -543,7 +544,7 @@
        padding: 20px 0px 10px;
    }
    .neww .item2 img{
-        width: 250px;
+        width: 230px;
     }
 
 
