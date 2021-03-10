@@ -412,14 +412,15 @@
    .nav-text{
         padding-right: 0px;
         letter-spacing: 0em;
+        display: inline-block;
     }
     .nav-list li .cart{
-        margin-right: 15px;
+        padding-right: 15px;
         display: inline-block;
     }
     .nav-list li .rwdbtn{
         display: inline-block;
-        margin-right: 25px;
+        padding-right: 25px;
     }
 
    .sec-bg{
