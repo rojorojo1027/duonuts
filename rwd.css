@@ -410,6 +410,8 @@
    }
    .nav-list .cart{
         padding-right: 15px;
+        padding-top:5px ;
+        display: inline-block;
     }
     .nav-list .rwdbtn{
          display: flex;
