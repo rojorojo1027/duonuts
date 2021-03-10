@@ -108,11 +108,12 @@
         padding: 25px 0 0 0;
         margin-left: 30px;
     }
-    .nav-list .cart{
-        padding-right: 12px;
+    .nav-list .nav-text{
+        padding-right: 10px;
     }
     .nav-list .rwdbtn{
-        display: inline-block;
+         display: inline-block;
+         padding-right: 25px;
     }
     
 
@@ -254,11 +255,12 @@
        margin-left: 30px;
    }
 
-   .nav-list .cart{
-        padding-right: 12px;
+   .nav-list .nav-text{
+        padding-right: 10px;
     }
     .nav-list .rwdbtn{
         display: inline-block;
+        padding-right: 25px;
     }
 
    .sec-bg{
@@ -409,12 +411,12 @@
        padding: 25px 0 0 0;
        margin-left: 30px;
    }
-
-   .nav-list .cart{
-        padding-right: 12px;
-    }
+   .nav-list .nav-text{
+       padding-right: 10px;
+   }
     .nav-list .rwdbtn{
         display: inline-block;
+        padding-right: 25px;
     }
 
    .sec-bg{
