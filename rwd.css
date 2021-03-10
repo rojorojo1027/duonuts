@@ -115,7 +115,6 @@
         display: flex;
     }
     
-
     .sec-bg{
         background-color: #F4F4F0;
         border-radius: 235px 235px 235px 235px;
@@ -409,7 +408,13 @@
        padding: 25px 0 0 0;
        margin-left: 30px;
    }
-   .nav-list .nav-text{
+   .nav-list .cart{
+        padding-right: 15px;
+    }
+    .nav-list .rwdbtn{
+         display: flex;
+    }
+   /* .nav-list .nav-text{
         padding-right: 25px;
         letter-spacing: 0em;
         display: inline-block;
@@ -419,7 +424,7 @@
     }
     .nav-list .rwdbtn{
         display: inline-block;
-    }
+    } */
 
    .sec-bg{
        background-color: #F4F4F0;
