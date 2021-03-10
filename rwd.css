@@ -446,17 +446,17 @@
        padding: 132px 20px 30px;
    }
    .slogan .slo-index{
-       width: 380px;
-       height: 123px;
+       width: 350px;
+       height: 113px;
        background-image: url(./img/rwd/header-g575.png);
+       background-size: 350px 113px;
        position: relative;
-       max-width: 100%;
    }/*img*/
    
    .slogan .slo-index h5{
        position: absolute;
-       top: 115px;
-       left: 58px;
+       top: 105px;
+       left: 46px;
        letter-spacing: 0.2em;
        width: 220px;
        text-align: center;
@@ -510,7 +510,7 @@
    }
    .abo .sec-c .text-ab img{
        margin-left: 80px;
-   }
+   }/*mrbtn*/
 
    /*index-sec 熱門商品*/
    .hot .hot-crs .item:nth-child(3),.hot .hot-crs .item:nth-child(4){
