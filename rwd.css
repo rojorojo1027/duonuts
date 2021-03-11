@@ -27,6 +27,9 @@
     .nav-text{
         padding-right: 22px;
     }
+    .nav-rwd{
+        display: none;
+    }
 
     .sec-bg{
         background-color: #F4F4F0;

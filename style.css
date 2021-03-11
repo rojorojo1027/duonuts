@@ -112,6 +112,9 @@ nav{
 .rwdbtn:hover{
     opacity: .7;
 }
+.nav-rwd{
+    display: none;
+}
 
 /*footer*/
 footer{
