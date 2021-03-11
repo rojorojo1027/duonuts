@@ -37,7 +37,8 @@
     .slogan .slo-index{
         width: 620px;
         height: 198px;
-        background-image: url(./img/rwd/header-g1199.png);
+        background-image: url(./img/index/header-g.png);
+        background-size: 620px 198px;
         position: relative;
     }/*img*/
     
@@ -132,7 +133,8 @@
     .slogan .slo-index{
         width: 620px;
         height: 198px;
-        background-image: url(./img/rwd/header-g1199.png);
+        background-image: url(./img/index/header-g.png);
+        background-size: 620px 198px;
         position: relative;
     }/*img*/
     
@@ -277,7 +279,7 @@
    .slogan .slo-index{
        width: 520px;
        height: 167px;
-       background-image: url(./img/rwd/header-g767.png);
+       background-image: url(./img/index/header-g.png);
        background-size: 520px 167px;
        position: relative;
    }/*img*/
@@ -434,7 +436,7 @@
    .slogan .slo-index{
        width: 335px;
        height: 108px;
-       background-image: url(./img/rwd/header-g575x2.png);
+       background-image: url(./img/index/header-g.png);
        background-size: 335px 108px;
        position: relative;
    }/*img*/
