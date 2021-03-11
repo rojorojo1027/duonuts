@@ -115,6 +115,13 @@ nav{
 .nav-rwd{
     display: none;
 }
+.nav-rwd ul{
+    padding-bottom: 25px;
+    display: none;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
 
 /*footer*/
 footer{

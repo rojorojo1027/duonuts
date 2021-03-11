@@ -30,6 +30,9 @@
     .nav-rwd{
         display: none;
     }
+    .nav-rwd ul{
+        display: none;
+    }
 
     .sec-bg{
         background-color: #F4F4F0;
@@ -126,11 +129,9 @@
         display: none;
     }
     .nav-rwd ul{
-        padding-bottom: 25px;
         border-radius: 0 0 50% 50%;
         display: block;
         width: 100%;
-        background-color: #fff;
         text-align: center;
     }
     .nav-rwd ul li a{
@@ -296,11 +297,9 @@
         display: none;
     }
     .nav-rwd ul{
-        padding-bottom: 25px;
         border-radius: 0 0 50% 50%;
         display: block;
         width: 100%;
-        background-color: #fff;
         text-align: center;
     }
     .nav-rwd ul li a{
@@ -476,11 +475,9 @@
         display: none;
     }
     .nav-rwd ul{
-        padding-bottom: 25px;
         border-radius: 0 0 45% 45%;
         display: block;
         width: 100%;
-        background-color: #fff;
         text-align: center;
     }
     .nav-rwd ul li a{
