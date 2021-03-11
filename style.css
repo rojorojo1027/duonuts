@@ -68,6 +68,7 @@ nav{
     background-image: url(./img/nav.png);
     background-position: center;
     position: fixed;
+    top: 0;
     z-index: 999;
     width: 100%;
     height: 226px;
@@ -131,7 +132,13 @@ footer p{
 .slogan{
     display: flex;
     justify-content: flex-end;
-    padding: 132px 100px 20px 0;
+    padding-right: 100px;
+    padding-left: 0;
+    padding-bottom: 20px;
+    /* padding: 132px 100px 20px 0; */
+}
+.slo-pt{
+    padding-top: 132px;
 }
 .slogan .slo-index{
     width: 720px;
