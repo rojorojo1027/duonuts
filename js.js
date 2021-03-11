@@ -1,8 +1,8 @@
-/* RWD nav漢堡按鈕 jquery*/
+/* RWD nav hamburger toggle jquery*/
 $(function(){
-    // 點擊按鈕rwdbtn，選單nav-list縮放
+    // 點擊按鈕rwdbtn，選單nav-rwd縮放
     $("button.rwdbtn").on("click", function(){
-      $("nav.nav-list").slideToggle();
+      $("div.nav-rwd").slideToggle();
     });
 });
 

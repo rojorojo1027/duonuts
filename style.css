@@ -104,8 +104,9 @@ nav{
     color: #208B75;
     font-size: 27px;
     padding-right: 25px;
-    background: transparent;
-    border: transparent;
+    background: none;
+    border:0;
+    outline: 0;
 }
 .rwdbtn:hover{
     opacity: .7;

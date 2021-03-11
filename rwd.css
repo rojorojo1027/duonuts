@@ -392,6 +392,7 @@
        justify-content: center;
        align-items: center;
    }
+/* nav 手機版 */
    nav{
        background-color: #fff;
        position: fixed;
@@ -417,7 +418,32 @@
     }
     .nav-list .rwdbtn{
          display: inline-block;
+         cursor: pointer;
     }
+
+    .nav-rwd{
+        display: none;
+    }
+    .nav-rwd ul{
+        padding-top: 100px;
+        padding-bottom: 25px;
+        border-radius: 0 0 38% 38%;
+        display: block;
+        width: 100%;
+        background-color: #fff;
+        z-index: 998;
+        position: fixed;
+    }
+    .nav-rwd ul li a{
+        line-height: 40px;
+        color: #999;
+        letter-spacing: 0.15em;
+
+    }
+    .nav-rwd ul li a:hover{
+        color:#208B75;
+    }
+    /* nav 手機版 end */
 
    .sec-bg{
        background-color: #F4F4F0;
