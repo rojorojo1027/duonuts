@@ -425,14 +425,15 @@
         display: none;
     }
     .nav-rwd ul{
-        padding-top: 100px;
+        margin-top: 100px;
         padding-bottom: 25px;
         border-radius: 0 0 38% 38%;
         display: block;
         width: 100%;
         background-color: #fff;
         z-index: 998;
-        position: fixed;
+        position: sticky;
+        top: 100px;
     }
     .nav-rwd ul li a{
         line-height: 40px;
