@@ -132,13 +132,7 @@ footer p{
 .slogan{
     display: flex;
     justify-content: flex-end;
-    padding-right: 100px;
-    padding-left: 0;
-    padding-bottom: 20px;
-    /* padding: 132px 100px 20px 0; */
-}
-.slo-pt{
-    padding-top: 132px;
+    padding: 132px 100px 20px 0;
 }
 .slogan .slo-index{
     width: 720px;
