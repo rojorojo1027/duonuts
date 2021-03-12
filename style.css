@@ -79,6 +79,8 @@ nav{
 }
 .logo img{
     padding: 52px 114px 0 0;
+    width: 185px;
+    box-sizing: content-box;
 }
 .nav-list ul{
     display: flex;
@@ -186,6 +188,9 @@ footer p{
 }
 
 /*index-sec 本月主打星*/
+.star .title{
+    width: 460px;
+}
 .star .sec-r .text-st{
     padding: 90px 50px 0 0;
     width: 365px;
@@ -197,10 +202,23 @@ footer p{
 .star h1:hover{
     opacity: .7;
 }
+.star .sec-r img{
+    width: 620px;
+    padding-top: 40px;
+}
+.star .sec-l img{
+    width: 620px;
+}
 
 /*index-sec 關於duonuts*/
+.abo .title{
+    width: 454px;
+}
 .abo .sec-c{
     padding-left: 20px;
+}
+.abo .sec-c .img{
+    width: 400px;
 }
 .abo .sec-c .text-ab{
     padding: 0 50px 0 0;
@@ -216,6 +234,10 @@ footer p{
 /*index-sec 熱門商品*/
 .dspnone{
     display: none;
+}
+
+.hot .title{
+    width: 418px;
 }
 .hot .sec-c{
     padding-bottom: 0px;
@@ -254,13 +276,18 @@ footer p{
 }
 
 /*index-sec 最新消息*/
+.neww .title{
+    width: 442px;
+}
 .neww .sec-c{
     padding-bottom: 10px;
 }
-
 .neww .item2{
     padding: 0 15px;
     width: 320px;
+}
+.neww .item2 img{
+    width: 300px;
 }
 .neww .item2 h3{
     padding: 20px 15px 10px;
