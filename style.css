@@ -305,9 +305,11 @@ footer p{
 
 
 /*about-sec 品牌故事*/
+.story .title{
+    width: 426px;
+}
 .story .text-sto{
     width: 420px;
-    padding-bottom: 40px;
 
 }
 .story .text-sto p{
@@ -319,9 +321,14 @@ footer p{
 }
 .story .sec-c img{
     padding-left: 60px;
+    width: 364px;
+    box-sizing: content-box;
 }
 
 /*about-sec 嚴選食材*/
+.mat .title{
+    width: 427px;
+}
 .mat .sec-c{
     padding-bottom: 120px;
     padding-left: 40px;
@@ -331,11 +338,17 @@ footer p{
     padding: 0 15px;
     width: 300px;
 }
+.mat .item3 img{
+    width: 282px;
+}
 .mat .item3 h1{
     padding: 30px 0 10px 15px;
 }
 
 /*about-sec 團隊介紹*/
+.team .title{
+    width: 421px;
+}
 .team .sec-c{
     padding-bottom: 120px;
 }
@@ -343,6 +356,9 @@ footer p{
 .team .item4{
     padding: 0 40px;
     width: 290px;
+}
+.team .item4 img{
+    width: 200px;
 }
 .team .item4 h1{
     padding: 30px 0 10px;
