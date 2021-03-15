@@ -40,22 +40,19 @@
     
     <div class="sec-c">
         <div class="inputbg">
-            <ul>
-                <li>
+            <form>
                     <h3 class="f22">姓名:</h3>
-                    <input type="text" class="name wh" placeholder="">
-                </li>
-                <li>
+                    <input type="text" class="name wh" name="name" placeholder="" required>
+                
                     <h3 class="f22">信箱:</h3>
-                    <input type="text" class="email wh" placeholder="">
-                </li>
-                <li>
+                    <input type="text" class="email wh" name="email" placeholder="" required>
+                
                     <h3 class="f22">想說的話:</h3>
-                    <textarea name="" id=""></textarea>
-                </li>
-                <li>
+                    <textarea name="saysomething" id="" required></textarea>
+
                     <button type="submit"><img src="./img/contact/sendbtn.png" alt="" class="sendbtn" onclick='alert("我們會盡快以信箱回覆，感謝您的填寫！")'></button>
-                </li>
+                
+            </form>
         </div>
     </div>
 
