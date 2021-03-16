@@ -78,21 +78,28 @@ nav{
     justify-content:flex-end;
 }
 .logo img{
-    padding: 52px 114px 0 0;
+    padding: 52px 73px 0 0;
     width: 185px;
     box-sizing: content-box;
 }
 .nav-list ul{
     display: flex;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     padding-top: 33px;
 }
 .nav-text{
     color:#999;
-    padding-right: 37px;
     letter-spacing: 0.15em;
 }
+.nav-list ul li:nth-child(1),.nav-list ul li:nth-child(2),.nav-list ul li:nth-child(3),.nav-list ul li:nth-child(4),.nav-list ul li:nth-child(5){
+    padding-right: 32px;
+}
+.nav-list ul li:nth-child(6),.nav-list ul li:nth-child(7),.nav-list ul li:nth-child(8){
+    padding-right: 25px;
+    padding-top: 6px;
+}
+
 .nav-list ul li a:hover{
     color:#208B75;
 }
