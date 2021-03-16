@@ -54,17 +54,17 @@
     
     <div class="sec-c">
         <div class="inputbg">
-            <form>
+            <form id="the_form" action="#" method="get">
                     <h3 class="f22">姓名:</h3>
-                    <input type="text" class="name wh" name="name" placeholder="" required>
+                    <input type="text" class="name wh" id="name" placeholder="" required>
                 
                     <h3 class="f22">信箱:</h3>
-                    <input type="text" class="email wh" name="email" placeholder="" required>
+                    <input type="text" class="email wh" id="email" placeholder="" required>
                 
                     <h3 class="f22">想說的話:</h3>
-                    <textarea name="saysomething" id="" required></textarea>
+                    <textarea name="saysomething" id="saysomething" required></textarea>
 
-                    <button type="submit"><img src="./img/contact/sendbtn.png" alt="" class="sendbtn" onclick='alert("我們會盡快以信箱回覆，感謝您的填寫！")'></button>
+                    <button type="submit"><img src="./img/contact/sendbtn.png" alt="" class="sendbtn"></button>
                 
             </form>
         </div>
@@ -92,6 +92,7 @@
 
 <script src="https://kit.fontawesome.com/bf3ce65286.js" crossorigin="anonymous"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="isjs.js"></script> <!--驗證程式isjs外掛-->
 <script src="js.js" type="text/javascript"></script>
 <script>
 
