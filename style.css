@@ -118,8 +118,8 @@ nav{
     font-size: 27px;
     padding-right: 25px;
     background: none;
-    border:0;
-    outline: 0;
+    border: 0;
+    outline: 0 transparent solid;
 }
 .rwdbtn:hover{
     opacity: .7;
