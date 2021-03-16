@@ -106,6 +106,9 @@ nav{
 .here{
     color:#208B75;
 }
+.login:hover{
+    opacity: .7;
+}
 .cart:hover{
     opacity: .7;
 }
