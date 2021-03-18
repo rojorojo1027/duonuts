@@ -529,13 +529,15 @@ footer p{
 }
 .popup .prbtn{
     position: absolute;
-    top: 45%;
+    top: 43%;
     left: -60px;
+    width: 45px;
   }
 .popup .nxbtn{
     position: absolute;
-    top: 45%;
+    top: 43%;
     right: -60px;
+    width: 45px;
   }
 .popup .prbtn:hover,.popup .nxbtn:hover{
     opacity: .7;
@@ -554,6 +556,9 @@ footer p{
     padding-top: 20px;
     padding-bottom: 50px;
 }
+.popup .swt img{
+    padding: 0 1px;
+}
 .popup .swt p{
     padding-right: 3px;
 }
@@ -562,6 +567,9 @@ footer p{
     font-weight: 300;
     padding-right: 38px;
     padding-bottom: 3px;
+}
+.popup .text-pop .buybtn img{
+    width: 121px;
 }
 .popup .text-pop .buybtn{
     padding-left: 93px;
