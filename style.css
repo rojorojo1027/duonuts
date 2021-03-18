@@ -544,7 +544,10 @@ footer p{
 }
 .popup .sec-r{
     padding: 80px 0 100px;
-  }
+}
+.popup .sec-r>img{
+    width: 529px;
+}
 .popup .text-pop{
     padding-right: 35px;
     padding-top: 35px;
