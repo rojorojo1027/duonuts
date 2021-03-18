@@ -467,8 +467,11 @@ footer p{
 
 /*product-sec 共用*/
 .itemp{
-    padding: 0 20px;
-    width: 290px;
+    margin: 0 20px;
+    width: 250px;
+}
+.itemp img{
+    height: 240px;
 }
 .itemp h3{
     padding: 15px 0;
@@ -477,8 +480,17 @@ footer p{
 .itemp h3:hover{
     opacity: .7;
 }
+.bas .title{
+    width: 560px;
+}
+.ball .title{
+    width: 460px;
+}
 
 /*product-sec 限定款duonuts*/
+.fla .title{
+    width: 575px;
+}
 .fla .sec-c{
     padding-bottom: 0px;
 }
