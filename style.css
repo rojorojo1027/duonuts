@@ -380,8 +380,11 @@ footer p{
 
 
 /*news-sec 優惠活動*/
+.sale .title{
+    width: 442px;
+}
 .sale .text-sl{
-    width: 435px;
+    width: 432px;
 }
 .sale .text-sl p{
     padding-bottom: 10px;
@@ -390,7 +393,8 @@ footer p{
     padding-top: 0px;
 }
 .sale .sale-s1 img{
-    padding-left: 20px;
+    margin-left: 20px;
+    width: 268px;
 }
 .sale .sec-c{
     padding-bottom: 0;
@@ -401,18 +405,23 @@ footer p{
     padding-bottom: 100px;
 }
 .sale .sale-s2 img{
-    padding-right: 50px;
+    margin-right: 50px;
+    width: 275px;
 }
 
 /*news-sec 最新消息*/
+.news .title{
+    width: 442px;
+}
 .news .text-nw{
     width: 500px;
 }
 .news .text-nw p{
     padding-bottom: 10px;
 }
-.news img{
+.news .sec-c img{
     padding-left: 30px;
+    width: 300px;
 }
 .news .sec-c{
     padding-bottom: 10px;
@@ -424,7 +433,15 @@ footer p{
 
 
 /*store-sec 共用*/
-.store .sec-c img{
+.store .title{
+    width: 417px;
+}
+.store .map1{
+    width: 466px;
+    padding-left: 20px;
+}
+.store .map2{
+    width: 396px;
     padding-left: 20px;
 }
 .store .text-store{
@@ -551,6 +568,9 @@ footer p{
 }
 
 /*contact-sec 聯絡我們*/
+.contact .title{
+    width: 440px;
+}
 .contact .inputbg{
     background-color: #fff;
     width: 580px;
@@ -604,6 +624,7 @@ footer p{
 }
 .contact .sendbtn{
     cursor: pointer;
+    width: 125px;
 }
 .contact .sendbtn:hover{
     opacity: .7;
