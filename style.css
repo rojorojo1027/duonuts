@@ -255,6 +255,7 @@ footer p{
 .hot-crs{
     display: flex;
 }
+
 .hot .hot-crs .item{
     padding: 0 10px;
 }
@@ -272,11 +273,17 @@ footer p{
     padding-right: 10px;
     padding-bottom: 60px;
     cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: 0;
 }
 .hot .rbtn{
     padding-left: 10px;
     padding-bottom: 60px;
     cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: 0;
 }
 .hot .mr{
     padding-bottom: 100px;
