@@ -1,7 +1,7 @@
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap');
 
-/* 首頁 RWD 1199 to 992 */
+/* 首頁 RWD 1199 to 992 ok*/
 @media screen and (min-width:992px) and (max-width:1199px){
     /* 各頁共用 */
     .wrapper{
@@ -88,11 +88,42 @@
         width: 295px;
     }
 
+    /*about-sec 品牌故事*/
+    .story .sec-c img{
+        padding-left: 40px;
+        width: 320px;
+        box-sizing: content-box;
+    }
+    /*about-sec 嚴選食材*/
+    .mat .item3{
+        padding: 0 15px;
+        width: 280px;
+    }
+    .mat .item3 img{
+        width: 262px;
+    }
+    /*about-sec 團隊介紹*/
+    .team .item4{
+        padding: 0 40px;
+        width: 260px;
+    }
+    .team .item4 img{
+        width: 180px;
+    }
+    /*store-sec map*/
+    .store .map1{
+        width: 460px;
+        padding-left: 10px;
+    }
+    .store .map2{
+        width: 390px;
+        padding-left: 15px;
+    }
 
 }
 
 
-/* 首頁 RWD 991 to 768 */
+/* 首頁 RWD 991 to 768 ok*/
 @media screen and (min-width:768px) and (max-width:991px){
     /* 各頁共用 */
     .wrapper{
@@ -256,13 +287,145 @@
         padding: 20px 0px 10px;
     }
 
+    .b4sec{
+        padding-top: 150px;
+    }
 
+    /*about-sec 品牌故事*/
+    .story .sec-c{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .story .sec-c img{
+        padding-left: 0px;
+        width: 360px;
+        box-sizing: content-box;
+        padding-bottom: 40px;
+    }
+    /*about-sec 嚴選食材*/
+    .mat .sec-c{
+        padding-left: 40px;
+        flex-direction: column;
+    }
+    .mat .item3:nth-child(2),.mat .item3:nth-child(3){
+        padding-top: 40px;
+    }
+    .mat .item3 h1{
+        padding: 18px 0 10px 8px;
+    }
+    /*about-sec 團隊介紹*/
+    .team .sec-c{
+        flex-direction: column;
+    }
+    .team .item4{
+        padding: 0 40px;
+        width: 300px;
+    }
+    .team .item4:nth-child(2),.team .item4:nth-child(3){
+        padding-top: 40px;
+    }
+    .team .item4 img{
+        width: 220px;
+    }
+    .team .item4 h1{
+        padding: 18px 0 10px;
+    }
+
+    /*product-sec 共用*/
+    .bas .sec-c,.fla .sec-c,.ball .sec-c{
+        padding-top: 0;
+        flex-direction: column;
+    }
+    .itemp{
+        margin: 10px 0px 20px;
+        width: 287px;
+    }
+    .itemp img{
+        height: 275px;
+    }
+
+    /*news-sec 優惠活動*/
+    .sale .sec-c{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .sale .sale-s1 img{
+        margin-left: 0px;
+        width: 268px;
+        order: 1;
+    }
+    .sale .sale-s1 .text-sl{
+        order: 2;
+        margin-bottom: 30px;
+    }
+    .sale .sale-s2 img{
+        margin-right: 0px;
+        width: 275px;
+    }
+    .sale .text-sl{
+        width: 422px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    /*news-sec 最新消息*/
+    .news .sec-c{
+        padding-bottom: 10px;
+        padding-left: 0px;
+        flex-direction: column-reverse;
+    }
+    .news .sec-c img{
+        padding-left: 0px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .news .text-nw{
+        width: 340px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .news .news3{
+        padding-bottom: 100px;
+    }
+
+    /*store-sec 共用*/
+    .store .sec-c{
+        flex-direction: column-reverse;
+    }
+    .store .map1{
+        width: 466px;
+        padding-left: 0px;
+    }
+    .store .map2{
+        width: 396px;
+        padding-left: 0px;
+    }
+    .store .text-store{
+        width: 320px;
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+
+    /*contact-sec 聯絡我們*/
+    .contact .inputbg{
+        width: 520px;
+    }
 }
      
     
-/* RWD 767 to 576 */
+/* RWD 767 to 576 ok*/
 @media screen and (min-width:576px) and (max-width:767px){
     
+    .f24{
+        font-size: 21px;
+    }
+    .f22{
+        font-size: 18px;
+    }
+    .f20{
+        font-size: 18px;
+    }
    .wrapper{
         width: 100%;
    }
@@ -324,7 +487,7 @@
         border-radius: 205px 205px 185px 185px;
     }
     .title{
-        padding: 65px 80px 40px;
+        padding: 65px 50px 40px;
     }
 
     /*index-slogan*/
@@ -359,12 +522,14 @@
     .star .sec-r .text-st{
         order: 2;
         padding: 30px 0 55px;
-        width: 405px;
+        width: 320px;
+        text-align: center;
     }
     .star .sec-r img{
         width: 470px;
         padding: 0;
         order: 1;
+        margin-left: 50px;
     }
     .star .sec-l{
         justify-content: center;
@@ -373,11 +538,13 @@
     }
     .star .sec-l .text-st2{
         padding: 35px 0 0;
-        width: 405px;
+        width: 320px;
+        text-align: center;
     }
     .star .sec-l img{
         width: 470px;
         padding: 0;
+        margin-right: 50px;
     }
 
     /*index-sec 關於duonuts*/
@@ -388,23 +555,27 @@
     }
     .abo .sec-c .img{
         order: 1;
-        width: 380px;
+        width: 300px;
     }
     .abo .sec-c .text-ab{
         order: 2;
         padding: 50px 0 0 0;
-        width: 300px;
+        width: 270px;
+        text-align: center;
     }
+    .abo .sec-c .text-ab img{
+        margin: 35px 0 0;
+    }/*morebtn*/
 
     /*index-sec 熱門商品*/
     .hot .hot-crs .item:nth-child(3),.hot .hot-crs .item:nth-child(4){
         display: none;
     }
     .hot .lbtn{
-        margin-right: 30px;
+        margin-right: 15px;
     }
     .hot .rbtn{
-        margin-left: 30px;
+        margin-left: 15px;
     }
 
     /*index-sec 最新消息*/
@@ -415,13 +586,157 @@
     }
     .neww .item2{
         padding: 0 0 40px;
-        width: 305px;
+        width: 270px;
     }
     .neww .item2:nth-child(3){
         padding: 0 0 0px;
     }
     .neww .item2 h3{
         padding: 20px 0px 10px;
+    }
+
+    .b4sec{
+        padding-top: 150px;
+    }
+
+    /*about-sec 品牌故事*/
+    .story .sec-c{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .story .sec-c img{
+        padding-left: 0px;
+        width: 300px;
+        box-sizing: content-box;
+        padding-bottom: 40px;
+    }
+    .story .text-sto{
+        width: 295px;
+    
+    }
+    /*about-sec 嚴選食材*/
+    .mat .sec-c{
+        padding-left: 40px;
+        flex-direction: column;
+    }
+    .mat .item3:nth-child(2),.mat .item3:nth-child(3){
+        padding-top: 40px;
+    }
+    .mat .item3 h1{
+        padding: 18px 0 10px 20px;
+    }
+    .mat .item3 img{
+        width: 262px;
+    }
+    /*about-sec 團隊介紹*/
+    .team .sec-c{
+        flex-direction: column;
+    }
+    .team .item4{
+        padding: 0 40px;
+        width: 280px;
+    }
+    .team .item4:nth-child(2),.team .item4:nth-child(3){
+        padding-top: 40px;
+    }
+    .team .item4 img{
+        width: 200px;
+    }
+    .team .item4 h1{
+        padding: 18px 0 10px;
+    }
+
+    /*product-sec 共用*/
+    .bas .title,.fla .title{
+        padding: 65px 80px 40px;
+    }
+    .bas .sec-c,.fla .sec-c,.ball .sec-c{
+        padding-top: 0;
+        flex-direction: column;
+    }
+    .itemp{
+        margin: 10px 0px 20px;
+        width: 255px;
+    }
+    .itemp img{
+        height: 245px;
+    }
+
+    /*news-sec 優惠活動*/
+    .sale .sec-c{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .sale .sale-s1 img{
+        margin-left: 0px;
+        width: 268px;
+        order: 1;
+    }
+    .sale .sale-s1 .text-sl{
+        order: 2;
+        margin-bottom: 30px;
+    }
+    .sale .sale-s2 img{
+        margin-right: 0px;
+        width: 275px;
+    }
+    .sale .text-sl{
+        width: 398px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    /*news-sec 最新消息*/
+    .news .sec-c{
+        padding-bottom: 10px;
+        padding-left: 0px;
+        flex-direction: column-reverse;
+    }
+    .news .sec-c img{
+        padding-left: 0px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .news .text-nw{
+        width: 300px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .news .news3{
+        padding-bottom: 100px;
+    }
+
+    /*store-sec 共用*/
+    .store .sec-c{
+        flex-direction: column-reverse;
+    }
+    .store .map1{
+        width: 446px;
+        padding-left: 0px;
+    }
+    .store .map2{
+        width: 376px;
+        padding-left: 0px;
+    }
+    .store .text-store{
+        width: 300px;
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+
+    /*contact-sec 聯絡我們*/
+    .contact .inputbg{
+        width: 460px;
+    }
+    .contact form{
+        padding: 42px 0;
+    }
+    .contact .wh{
+        width: 300px;
+    }
+    .contact textarea{
+        width: 300px;
     }
 
 }

@@ -161,10 +161,9 @@ the_form.addEventListener("submit",function(e){
         send_data = false; //未輸入資料 不可送出
     }else{
         //資料正確
+        alert("我們會盡快以信箱回覆，感謝您的填寫！");
+        the_form.reset();
     };
-
-    alert("我們會盡快以信箱回覆，感謝您的填寫！");
-    the_form.reset();
 
     // !send_data = false
     if(!send_data){
