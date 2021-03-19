@@ -815,7 +815,7 @@
 
     .sec-bg{
         background-color: #F4F4F0;
-        border-radius: 155px 155px 135px 135px;
+        border-radius: 135px 135px 135px 135px;
     }
     .title{
         padding: 65px 80px 40px;
@@ -825,13 +825,13 @@
     .slogan{
         display: flex;
         justify-content: center;
-        padding: 122px 0 30px 25px;
+        padding: 122px 0 30px 22px;
     }
     .slogan .slo-index{
-        width: 335px;
-        height: 108px;
+        width: 310px;
+        height: 100px;
         background-image: url(./img/index/header-g.png);
-        background-size: 335px 108px;
+        background-size: 310px 100px;
         position: relative;
     }/*img*/
     
@@ -857,7 +857,7 @@
         width: 280px;
     }
     .star .sec-r img{
-        width: 320px;
+        width: 300px;
         padding: 0;
         order: 1;
     }
@@ -871,7 +871,7 @@
         width: 280px;
     }
     .star .sec-l img{
-        width: 320px;
+        width: 300px;
         padding: 0;
     }
 
@@ -883,12 +883,12 @@
     }
     .abo .sec-c .img{
         order: 1;
-        width: 260px;
+        width: 250px;
     }
     .abo .sec-c .text-ab{
         order: 2;
         padding: 50px 0 0 0;
-        width: 280px;
+        width: 270px;
     }
     .abo .sec-c .text-ab img{
         margin-left: 80px;
@@ -899,13 +899,13 @@
         display: none;
     }
     .hot .hot-crs .item img{
-        height: 200px;
+        height: 180px;
         }
     .hot .lbtn{
-        padding-right: 10px;
+        padding-right: 5px;
     }
     .hot .rbtn{
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
     /*index-sec 最新消息*/
@@ -928,7 +928,156 @@
             width: 230px;
     }
 
+    .b4sec{
+        padding-top: 150px;
+    }
+
+    /*about-sec 品牌故事*/
+    .story .sec-c{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .story .sec-c img{
+        padding-left: 0px;
+        width: 240px;
+        box-sizing: content-box;
+        padding-bottom: 40px;
+    }
+    .story .text-sto{
+        width: 240px;
+    
+    }
+    /*about-sec 嚴選食材*/
+    .mat .sec-c{
+        padding-left: 40px;
+        flex-direction: column;
+    }
+    .mat .item3:nth-child(2),.mat .item3:nth-child(3){
+        padding-top: 40px;
+    }
+    .mat .item3 h1{
+        padding: 18px 0 10px 25px;
+        text-align: left;
+    }
+    .mat .item3 img{
+        width: 222px;
+    }
+    /*about-sec 團隊介紹*/
+    .team .sec-c{
+        flex-direction: column;
+    }
+    .team .item4{
+        padding: 0 40px;
+        width: 260px;
+    }
+    .team .item4:nth-child(2),.team .item4:nth-child(3){
+        padding-top: 40px;
+    }
+    .team .item4 img{
+        width: 200px;
+    }
+    .team .item4 h1{
+        padding: 18px 0 10px;
+    }
+
+    /*product-sec 共用*/
+    .bas .title,.fla .title{
+        padding: 65px 80px 40px;
+    }
+    .bas .sec-c,.fla .sec-c,.ball .sec-c{
+        padding-top: 0;
+        flex-direction: column;
+    }
+    .itemp{
+        margin: 10px 0px 20px;
+        width: 225px;
+    }
+    .itemp img{
+        height: 215px;
+    }
+
+    /*news-sec 優惠活動*/
+    .sale .sec-c{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .sale .sale-s1 img{
+        margin-left: 0px;
+        width: 225px;
+        order: 1;
+    }
+    .sale .sale-s1 .text-sl{
+        order: 2;
+        margin-bottom: 30px;
+    }
+    .sale .sale-s2 img{
+        margin-right: 0px;
+        width: 230px;
+    }
+    .sale .text-sl{
+        width: 245px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    /*news-sec 最新消息*/
+    .news .sec-c{
+        padding-bottom: 10px;
+        padding-left: 0px;
+        flex-direction: column-reverse;
+    }
+    .news .sec-c img{
+        padding-left: 0px;
+        width: 230px;
+        margin-bottom: 20px;
+    }
+    .news .text-nw{
+        width: 250px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .news .news3{
+        padding-bottom: 100px;
+    }
+
+    /*store-sec 共用*/
+    .store .sec-c{
+        flex-direction: column-reverse;
+    }
+    .store .map1{
+        width: 316px;
+        padding-left: 0px;
+    }
+    .store .map2{
+        width: 300px;
+        padding-left: 0px;
+    }
+    .store .text-store{
+        width: 300px;
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+    .store .text-store .f24,.store .text-store .f20{
+        text-align: left;
+    }
+
+    /*contact-sec 聯絡我們*/
+    .contact .inputbg{
+        width: 320px;
+        border-radius: 60px;
+    }
+    .contact form{
+        padding: 20px 0 40px;
+    }
+    .contact .wh{
+        width: 200px;
+        height: 35px;
+    }
+    .contact textarea{
+        width: 200px;
+        height: 150px;
+    }
 
 }
-        
-        
+
