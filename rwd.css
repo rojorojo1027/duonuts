@@ -1,7 +1,7 @@
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap');
 
-/* 首頁 RWD 1199 to 992 ok*/
+/* 首頁 RWD 1199 to 992 */
 @media screen and (min-width:992px) and (max-width:1199px){
     /* 各頁共用 */
     .wrapper{
@@ -123,7 +123,7 @@
 }
 
 
-/* 首頁 RWD 991 to 768 ok*/
+/* 首頁 RWD 991 to 768 */
 @media screen and (min-width:768px) and (max-width:991px){
     /* 各頁共用 */
     .wrapper{
@@ -414,7 +414,7 @@
 }
      
     
-/* RWD 767 to 576 ok*/
+/* RWD 767 to 576 */
 @media screen and (min-width:576px) and (max-width:767px){
     
     .f24{
@@ -1080,4 +1080,5 @@
     }
 
 }
+
 
