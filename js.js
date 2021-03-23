@@ -127,6 +127,33 @@ $("a.buybtn").on("click", function(e){
     $("div.shct").fadeIn();
 });
 
+/*checkoutbtn觸發login-popup*/
+$("button.checkoutbtn").on("click", function(e){
+    e.preventDefault();
+    $("div.shct").fadeOut();
+    $("div.loginpop").fadeIn();
+});
+
+/*login-popup 觸發 jquery*/
+$("a.login").on("click", function(e){
+    e.preventDefault();
+    $("div.loginpop").fadeIn();
+});
+
+/*login-popup to signup-popup*/
+$("a.gosignup").on("click", function(e){
+    e.preventDefault();
+    $("div.loginpop").fadeOut();
+    $("div.signup").fadeIn();
+});
+
+/*signup-popup to login-popup*/
+$("a.gologin").on("click", function(e){
+    e.preventDefault();
+    $("div.signup").fadeOut();
+    $("div.loginpop").fadeIn();
+});
+
 /*關閉popup*/
 $("a.closebtn").on("click", function(e){
     e.preventDefault();
@@ -177,12 +204,14 @@ if (the_form){ //如果有the_form這個元素才執行
 /*shopping-cart 全選 jquery*/
 $("#check_all").on("click", function(){
     $("input.itemsh").prop("checked", $(this).prop("checked"));
-  });
+});
   
-  $(document).on("click", "input.itemsh", function(){
+$(document).on("click", "input.itemsh", function(){
     if( $("input.itemsh:checked").length == $("input.itemsh").length ){
-       $("#check_all").prop("checked", true);
+        $("#check_all").prop("checked", true);
     }else{
-      $("#check_all").prop("checked", false);
+        $("#check_all").prop("checked", false);
     }
-  });
+});
+
+
