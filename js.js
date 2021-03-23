@@ -123,15 +123,15 @@ $("a.cart").on("click", function(e){
 /*buybtn觸發shoppingcart-popup*/
 $("a.buybtn").on("click", function(e){
     e.preventDefault();
-    $("div.overlay").fadeOut();
-    $("div.shct").fadeIn();
+    $("div.overlay").fadeOut(1000);
+    $("div.shct").fadeIn(1000);
 });
 
 /*checkoutbtn觸發login-popup*/
 $("button.checkoutbtn").on("click", function(e){
     e.preventDefault();
-    $("div.shct").fadeOut();
-    $("div.loginpop").fadeIn();
+    $("div.shct").fadeOut(1000);
+    $("div.loginpop").fadeIn(1000);
 });
 
 /*login-popup 觸發 jquery*/
@@ -143,15 +143,15 @@ $("a.login").on("click", function(e){
 /*login-popup to signup-popup*/
 $("a.gosignup").on("click", function(e){
     e.preventDefault();
-    $("div.loginpop").fadeOut();
-    $("div.signup").fadeIn();
+    $("div.loginpop").fadeOut(1000);
+    $("div.signup").fadeIn(1000);
 });
 
 /*signup-popup to login-popup*/
 $("a.gologin").on("click", function(e){
     e.preventDefault();
-    $("div.signup").fadeOut();
-    $("div.loginpop").fadeIn();
+    $("div.signup").fadeOut(1000);
+    $("div.loginpop").fadeIn(1000);
 });
 
 /*關閉popup*/
@@ -215,3 +215,113 @@ $(document).on("click", "input.itemsh", function(){
 });
 
 
+/*product-popup prbtn nxbtn*/
+$("a.prbtn1").on("click", function(e){
+    e.preventDefault();
+    $("div.p1").fadeOut(1000);
+    $("div.p10").fadeIn(1000);
+});
+$("a.nxbtn1").on("click", function(e){
+    e.preventDefault();
+    $("div.p1").fadeOut(1000);
+    $("div.p2").fadeIn(1000);
+});
+
+$("a.prbtn2").on("click", function(e){
+    e.preventDefault();
+    $("div.p2").fadeOut(1000);
+    $("div.p1").fadeIn(1000);
+});
+$("a.nxbtn2").on("click", function(e){
+    e.preventDefault();
+    $("div.p2").fadeOut(1000);
+    $("div.p3").fadeIn(1000);
+});
+
+$("a.prbtn3").on("click", function(e){
+    e.preventDefault();
+    $("div.p3").fadeOut(1000);
+    $("div.p2").fadeIn(1000);
+});
+$("a.nxbtn3").on("click", function(e){
+    e.preventDefault();
+    $("div.p3").fadeOut(1000);
+    $("div.p4").fadeIn(1000);
+});
+
+$("a.prbtn4").on("click", function(e){
+    e.preventDefault();
+    $("div.p4").fadeOut(1000);
+    $("div.p3").fadeIn(1000);
+});
+$("a.nxbtn4").on("click", function(e){
+    e.preventDefault();
+    $("div.p4").fadeOut(1000);
+    $("div.p5").fadeIn(1000);
+});
+
+$("a.prbtn5").on("click", function(e){
+    e.preventDefault();
+    $("div.p5").fadeOut(1000);
+    $("div.p4").fadeIn(1000);
+});
+$("a.nxbtn5").on("click", function(e){
+    e.preventDefault();
+    $("div.p5").fadeOut(1000);
+    $("div.p6").fadeIn(1000);
+});
+
+$("a.prbtn6").on("click", function(e){
+    e.preventDefault();
+    $("div.p6").fadeOut(1000);
+    $("div.p5").fadeIn(1000);
+});
+$("a.nxbtn6").on("click", function(e){
+    e.preventDefault();
+    $("div.p6").fadeOut(1000);
+    $("div.p7").fadeIn(1000);
+});
+
+$("a.prbtn7").on("click", function(e){
+    e.preventDefault();
+    $("div.p7").fadeOut(1000);
+    $("div.p6").fadeIn(1000);
+});
+$("a.nxbtn7").on("click", function(e){
+    e.preventDefault();
+    $("div.p7").fadeOut(1000);
+    $("div.p8").fadeIn(1000);
+});
+
+$("a.prbtn8").on("click", function(e){
+    e.preventDefault();
+    $("div.p8").fadeOut(1000);
+    $("div.p7").fadeIn(1000);
+});
+$("a.nxbtn8").on("click", function(e){
+    e.preventDefault();
+    $("div.p8").fadeOut(1000);
+    $("div.p9").fadeIn(1000);
+});
+
+$("a.prbtn9").on("click", function(e){
+    e.preventDefault();
+    $("div.p9").fadeOut(1000);
+    $("div.p8").fadeIn(1000);
+});
+$("a.nxbtn9").on("click", function(e){
+    e.preventDefault();
+    $("div.p9").fadeOut(1000);
+    $("div.p10").fadeIn(1000);
+});
+
+$("a.prbtn10").on("click", function(e){
+    e.preventDefault();
+    $("div.p10").fadeOut(1000);
+    $("div.p9").fadeIn(1000);
+});
+$("a.nxbtn10").on("click", function(e){
+    e.preventDefault();
+    $("div.p10").fadeOut(1000);
+    $("div.p1").fadeIn(1000);
+});

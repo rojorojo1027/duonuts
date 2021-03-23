@@ -462,9 +462,13 @@ footer p{
     padding-bottom: 5px;
 }
 .store .text-store .info p{
-    color: #208B75;
+    color: #208B75 !important;
     font-weight: 500;
     padding-left: 10px;
+}
+/*調整 手機版 電話號碼自動改成藍色(a)*/
+a{
+    color:inherit;
 }
 .store .text-store .info img{
     padding-left: 0;
