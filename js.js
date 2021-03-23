@@ -135,38 +135,54 @@ $("a.closebtn").on("click", function(e){
 
 /*contact 表單資料submit驗證*/
 let the_form = document.getElementById("the_form");
-the_form.addEventListener("submit",function(e){
+if (the_form){ //如果有the_form這個元素才執行
+    the_form.addEventListener("submit",function(e){
 
-    let name = document.getElementById("name");
-    let email = document.getElementById("email");
-    let saysomething = document.getElementById("saysomething");
+        let name = document.getElementById("name");
+        let email = document.getElementById("email");
+        let saysomething = document.getElementById("saysomething");
 
-    // 帳號驗證
-    let send_data = true;
-    if(name.value == ""){
-        send_data = false; //未輸入資料 不可送出
+        // 帳號驗證
+        let send_data = true;
+        if(name.value == ""){
+            send_data = false; //未輸入資料 不可送出
+        }else{
+            //資料正確
+        };
+
+        // 信箱驗證 isjs
+        if( is.email(email.value) ){
+            //資料正確
+        }else{
+            send_data = false; //資料錯誤 不可送出
+        };
+        
+        // 想說的話驗證
+        if(saysomething.value == ""){
+            send_data = false; //未輸入資料 不可送出
+        }else{
+            //資料正確
+            alert("我們會盡快以信箱回覆，感謝您的填寫！");
+            the_form.reset();
+        };
+
+        // !send_data = false
+        if(!send_data){
+            e.preventDefault();
+        }
+
+    })
+};
+
+/*shopping-cart 全選 jquery*/
+$("#check_all").on("click", function(){
+    $("input.itemsh").prop("checked", $(this).prop("checked"));
+  });
+  
+  $(document).on("click", "input.itemsh", function(){
+    if( $("input.itemsh:checked").length == $("input.itemsh").length ){
+       $("#check_all").prop("checked", true);
     }else{
-        //資料正確
-    };
-
-    // 信箱驗證 isjs
-    if( is.email(email.value) ){
-        //資料正確
-    }else{
-        send_data = false; //資料錯誤 不可送出
-    };
-    
-    // 想說的話驗證
-    if(saysomething.value == ""){
-        send_data = false; //未輸入資料 不可送出
-    }else{
-        //資料正確
-        alert("我們會盡快以信箱回覆，感謝您的填寫！");
-        the_form.reset();
-    };
-
-    // !send_data = false
-    if(!send_data){
-        e.preventDefault();
+      $("#check_all").prop("checked", false);
     }
-});
+  });

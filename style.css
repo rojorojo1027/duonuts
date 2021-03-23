@@ -587,14 +587,113 @@ footer p{
     opacity: .7;
 }
 
-/*shoppingcart-popup 購物車 內容暫圖未切*/
+/*shoppingcart-popup 購物車*/
 .shct{
     overflow-y: scroll;
 }
-.shct .sec-c{
-    padding-top: 60px;
-    padding-bottom: 60px;
+.shct .shtitle{
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
+.shct .shtitle img{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.shct .line{
+    border-bottom: #208B75 solid 1px;
+    margin: 0 auto;
+}
+.shct .lineg{
+    border-bottom: #999 solid 1px;
+    margin: 0 auto;
+}
+.shct .shlist{
+    padding: 0 90px 70px;
+}
+.shct .shtop{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.shct .shtop li{
+    display: flex;
+    align-items: center;
+    background-color: #208B75;
+    border-radius: 15px;
+    padding: 0px 5px;
+}
+.shct .shtop li h3{
+    margin-left: 5px;
+    color: #fff;
+}
+.shct .shtop li a{
+    padding: 0px 5px 0px 10px;
+    background-color: #208B75;
+    color: #fff;
+    border-radius: 15px;
+}
+.shct .shtop li a:hover{
+    opacity: .7;
+}
+.shct .shli-title{
+    display: flex;
+    padding: 15px 20px;
+}
+.shct .shli-title .f20{
+    color: #208B75;
+    font-weight: 400;
+}
+.shct .shli{
+    display: flex;
+    padding: 15px 20px;
+}
+.shct .shli li{
+    display: flex;
+    align-items: center;
+}
+.shct .shli .pname .f20{
+    margin-left: 10px;
+}
+
+.shct .pname{
+    width: 400px;
+}
+.shct .price{
+    width: 240px;
+}
+.shct .count{
+    width: 60px;
+}
+
+.shct .shli li .amount{
+    width: 50px;
+    font-size:20px;
+    border: 0;
+    outline: 0;
+    color: #777;
+    padding-left: 5px;
+}
+.shct .totalprice .f20{
+    text-align: right;
+    color: #208B75;
+    font-weight: 400;
+    padding: 30px 50px;
+}
+.shct .checkout{
+    display: flex;
+    justify-content: center;
+}
+.shct .checkoutbtn{
+    border: 0;
+    outline: 0;
+    width: 200px;
+    background: 0;
+    cursor: pointer;
+}
+.shct .checkoutbtn:hover{
+    opacity: .7;
+}
+
 
 /*contact-sec 聯絡我們*/
 .contact .title{
