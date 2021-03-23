@@ -461,15 +461,17 @@ footer p{
     display: flex;
     padding-bottom: 5px;
 }
+
 .store .text-store .info p{
     color: #208B75 !important;
     font-weight: 500;
     padding-left: 10px;
 }
-/*調整 手機版 電話號碼自動改成藍色(a)*/
+/*調整 手機版 電話號碼自動變成藍色(a)*/
 a{
     color:inherit;
 }
+
 .store .text-store .info img{
     padding-left: 0;
 }
@@ -608,7 +610,7 @@ a{
     margin: 0 auto;
 }
 .shct .lineg{
-    border-bottom: #999 solid 1px;
+    border-bottom: #aaa solid 1px;
     margin: 0 auto;
 }
 .shct .shlist{
@@ -680,7 +682,7 @@ a{
 .shct .totalprice .f20{
     text-align: right;
     color: #208B75;
-    font-weight: 400;
+    font-weight: 500;
     padding: 30px 50px;
 }
 .shct .checkout{
