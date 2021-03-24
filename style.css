@@ -535,7 +535,7 @@ a{
     right: 12px;
     color: #fff;
     font-size: 30px;
-  }
+}
 .popup .closebtn:hover{
     color: #208B75;
 }
@@ -577,7 +577,7 @@ a{
 .popup .swt p{
     padding-right: 3px;
 }
-.popup .text-pop .price{
+.popup .text-pop .pricep{
     text-align: right;
     font-weight: 300;
     padding-right: 38px;
@@ -602,7 +602,7 @@ a{
     padding-bottom: 20px;
 }
 .shct .shtitle img{
-    margin-right: 5px;
+    margin-right: 6px;
     margin-bottom: 5px;
 }
 .shct .line{
