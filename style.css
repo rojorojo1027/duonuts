@@ -267,7 +267,7 @@ footer p{
     padding: 20px 0;
     text-align: center;
 }
-.hot .hot-crs .item h3:hover{
+.hot .hot-crs .item:hover{
     opacity: .7;
 }
 .hot .lbtn{
@@ -319,7 +319,7 @@ footer p{
     padding: 20px 15px 10px;
     text-align: center;
 }
-.neww .item2 h3:hover{
+.neww .item2:hover{
     opacity: .7;
 }
 .neww .mr{
