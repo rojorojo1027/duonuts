@@ -327,31 +327,34 @@ $("a.nxbtn10").on("click", function(e){
 });
 
 /* index-hot-carousel swiper */
-var swiper = new Swiper('.swiper-container', {
-    // Default parameters   
-    slidesPerView: 3,
-    spaceBetween: 20,
-    loop: true,
-    navigation: {
-        nextEl: ".rbtn",
-        prevEl: ".lbtn",
-    },
-    // Responsive breakpoints   
-    breakpoints: {  
-        575: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-        },       
-        767: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-        },    
-        991: {
-            slidesPerView: 1,
-            spaceBetween: 20,
+let hotcrs = document.getElementById("hotcrs");
+if(hotcrs){ //如果有hotcrs才執行
+    var swiper = new Swiper('.swiper-container', {
+        // Default parameters   
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+        navigation: {
+            nextEl: ".rbtn",
+            prevEl: ".lbtn",
+        },
+        // Responsive breakpoints   
+        breakpoints: {  
+            575: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },       
+            767: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },    
+            991: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            }
         }
-    }
-  });
+    })
+};
 
 /* index-hot-carousel product-popup 觸發 */
 $("a.the_btnh1").on("click", function(e){
