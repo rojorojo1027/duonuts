@@ -15,6 +15,7 @@
     
     nav{
         background-image: url(./img/rwd/nav1199.png);
+        background-position: center;
         position: fixed;
         width: 100%;
         height: 183px;
@@ -966,8 +967,9 @@
         background-color: #F4F4F0;
         border-radius: 135px 135px 135px 135px;
     }
-    .title{
-        padding: 65px 80px 40px;
+    .star .title,.abo .title,.hot .title,.neww .title,.story .title,.mat .title,.team .title,.sale .title,.news .title,.store .title,.ball .title,.contact .title{
+        padding: 65px 0px 40px;
+        width: calc(100vw - 100px);
     }
 
     /*index-slogan*/
@@ -1133,7 +1135,8 @@
 
     /*product-sec 共用*/
     .bas .title,.fla .title{
-        padding: 65px 80px 40px;
+        padding: 65px 0px 40px;
+        width: calc(100vw - 80px);
     }
     .bas .sec-c,.fla .sec-c,.ball .sec-c{
         padding-top: 0;
@@ -1141,10 +1144,10 @@
     }
     .itemp{
         margin: 10px 0px 20px;
-        width: 225px;
+        width: 205px;
     }
     .itemp img{
-        height: 215px;
+        height: 200px;
     }
 
     /*news-sec 優惠活動*/
@@ -1236,13 +1239,13 @@
         margin: 90px auto;
         background-color: #fff;
         border-radius: 120px;
-        width: 300px;
+        width: calc(100vw - 20px);
         position: relative;
         z-index: 1000;
     }
     .popup .sec-r>img{
         width: 250px;
-        margin-left: 49px;
+        margin-left: 20px;
         margin-top: 12px;
     }
     .popup .closebtn{
@@ -1256,6 +1259,7 @@
     }
     .popup .swt{
         padding-bottom: 30px;
+        padding-top: 10px;
     }
     .popup .text-pop{
         padding: 0;
@@ -1322,20 +1326,20 @@
         font-size: 17px;
     }
     .shct .pname{
-        width: 120px;
+        width: 40vw;
         margin-right: 25px;
     }
     .shct .price{
-        width: 45px;
+        width: 20vw;
         margin-right: 25px;
     }
     .shct .count{
-        width: 45px;
+        width: 20vw;
     }
 
     /*login-popup*/
     .loginpop .popup{
-        width: 300px;
+        width: calc(100vw - 20px);
         border-radius: 120px;
         margin: 90px auto;
     }
@@ -1352,11 +1356,11 @@
         font-weight: normal;
     }
     .loginpop .loginform .wh{
-        width: 220px;
+        width: 230px;
         height: 40px;
     }
     .loginpop .loginform .logina a{
-        font-size: 14px;
+        font-size: 15px;
     }
     .loginpop .loginform button{
         padding-top: 35px;
@@ -1364,7 +1368,7 @@
 
     /*signup-popup*/
     .signup .popup{
-        width: 300px;
+        width: calc(100vw - 20px);
         border-radius: 120px;
         margin: 90px auto;
     }
@@ -1381,14 +1385,14 @@
         font-weight: normal;
     }
     .signup .signupform .wh{
-        width: 220px;
+        width: 230px;
         height: 40px;
     }
     .signup .signupform .signupa{
         padding-top: 30px;
     }
     .signup .signupform .signupa a{
-        font-size: 14px;
+        font-size: 15px;
     }
     .signup .signupform button{
         padding-top: 25px;
