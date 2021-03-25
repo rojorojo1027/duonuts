@@ -1043,7 +1043,7 @@
     }
     .star .title,.abo .title,.hot .title,.neww .title,.story .title,.mat .title,.team .title,.sale .title,.news .title,.store .title,.ball .title,.contact .title{
         padding: 65px 0px 40px;
-        width: calc(100vw - 100px);
+        width: calc(100vw - 116px);
     }
 
     /*index-slogan*/
