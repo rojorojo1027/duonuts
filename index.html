@@ -7,6 +7,7 @@
     <title>duonuts 首頁</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="rwd.css" type="text/css">
     <link rel="icon" href="./img/favicon.png" type="image/png">
@@ -14,7 +15,7 @@
 </head>
 <body>
 <!-- nav -->
-<nav>
+<nav data-aos="fade-down" data-aos-offset="300">
     <div class="wrapper navbar">
         <div class="logo">
             <a href="./index.html"><img src="./img/logo.png" alt="" onmouseover="this.src='./img/logo2.png';" onmouseout="this.src='./img/logo.png';"></a>
@@ -57,7 +58,7 @@
 </section>
 
 <!-- section 本月主打星 -->
-<section class="star sec-bg wrapper">
+<section class="star sec-bg wrapper" data-aos="fade-up" data-aos-offset="300">
     <img class="title" src="./img/index/star.png" alt="">
     
     <div class="sec-r">
@@ -79,7 +80,7 @@
 </section>
 
 <!-- section 關於duonuts -->
-<section class="abo sec-bg wrapper">
+<section class="abo sec-bg wrapper" data-aos="fade-up" data-aos-offset="300">
     <img class="title" src="./img/index/abo.png" alt="">
     
     <div class="sec-c">
@@ -94,7 +95,7 @@
 </section>
 
 <!-- section 熱門商品 -->
-<section class="hot sec-bg wrapper">
+<section class="hot sec-bg wrapper" data-aos="fade-up" data-aos-offset="300">
     <img class="title" src="./img/index/hot.png" alt="">
     
     <div class="sec-c" id="hotcrs">
@@ -178,7 +179,7 @@
 </section> -->
 
 <!-- section 最新消息 -->
-<section class="neww sec-bg wrapper">
+<section class="neww sec-bg wrapper" data-aos="fade-up" data-aos-offset="300">
     <img class="title" src="./img/index/neww.png" alt="">
     
     <div class="sec-c">
@@ -557,9 +558,9 @@
 
 	</div>
 </div>
-
 <!-- index-popup end -->
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script><!--過場動畫程式aos-->
 <script src="https://kit.fontawesome.com/bf3ce65286.js" crossorigin="anonymous"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script><!--輪播程式swiper-->
@@ -567,7 +568,7 @@
 <script src="isjs.js"></script> <!--驗證程式isjs外掛-->
 <script src="js.js" type="text/javascript"></script>
 <script>
-
+    AOS.init();
 </script>
 
 </body>

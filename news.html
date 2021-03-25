@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>duonuts 活動消息</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="rwd.css" type="text/css">
     <link rel="icon" href="./img/favicon.png" type="image/png">
@@ -12,7 +13,7 @@
 </head>
 <body>
 <!-- nav -->
-<nav>
+<nav data-aos="fade-down" data-aos-offset="300">
     <div class="wrapper navbar">
         <div class="logo">
             <a href="./index.html"><img src="./img/logo.png" alt="" onmouseover="this.src='./img/logo2.png';" onmouseout="this.src='./img/logo.png';"></a>
@@ -49,7 +50,7 @@
 <div class="wrapper b4sec">  </div>
 
 <!-- section 優惠活動 -->
-<section class="sale sec-bg wrapper">
+<section class="sale sec-bg wrapper" data-aos="fade-up" data-aos-offset="300">
     <img class="title" src="./img/news/sale.png" alt="">
     
     <div class="sec-c sale-s1">
@@ -73,7 +74,7 @@
 </section>
 
 <!-- section 最新消息 -->
-<section class="news sec-bg wrapper">
+<section class="news sec-bg wrapper" data-aos="fade-up" data-aos-offset="300">
                                 <div id="news1"><!--index連結news1頂部位置--></div>
     
     <img class="title" src="./img/news/news.png" alt="">
@@ -275,12 +276,13 @@
 	</div>
 </div>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script><!--過場動畫程式aos-->
 <script src="https://kit.fontawesome.com/bf3ce65286.js" crossorigin="anonymous"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="isjs.js"></script> <!--驗證程式isjs外掛-->
 <script src="js.js" type="text/javascript"></script>
 <script>
-
+    AOS.init();
 </script>
 
 </body>
